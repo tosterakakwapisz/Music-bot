@@ -1,8 +1,8 @@
 module.exports = {
     app: {
-        px: '!vmusic',
+        px: 'XXX',
         token: 'XXX',
-        playing: 'by TheToster | Forked from Zerio'
+        playing: 'by Zerio ❤️'
     },
 
     opt: {
