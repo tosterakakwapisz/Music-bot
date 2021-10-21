@@ -8,7 +8,7 @@ If you need help with this project, to get support faster you can join the help 
 
 *If you don't have any development knowledge, it is recommended to join the Discord support server to get help.*
 
-### ⚡ Configuration
+## ⚡ Configuration
 
 Open the configuration file located in the main folder `config.js`.
 
@@ -41,7 +41,7 @@ Basic configuration
 
 DJ mode configuration
 
-- `opt/DJ/enabled`, whether the DJ mode should be activated or not 
+- `opt/DJ/enabled`, whether the DJ mode should be activated or not
 - `opt/DJ/roleName`, the name of the DJ role to be used
 - `opt/DJ/commands`, the list of commands limited to members with the DJ role
 
@@ -51,7 +51,7 @@ Advanced configuration
 - `opt/loopMessage`, if the message that a music is played should be sent when it is looped
 - `opt/discordPlayer`, options used by discord-player
 
-### 📑 Installation
+## 📑 Installation
 
 To use the project correctly you will need some tools.
 
@@ -65,4 +65,4 @@ Realized with ❤️ by [ZerioDev](https://github.com/ZerioDev).
 
 Please do not withdraw the license and keep the credits on this project.
 
-To have full access to the project and to be able to withdraw the credits a small donation is accepted. 
+To have full access to the project and to be able to withdraw the credits a small donation is accepted.
