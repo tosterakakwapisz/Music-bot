@@ -9,7 +9,7 @@ module.exports = {
     execute(client, message, args) {
         const queue = player.getQueue(message.guild.id);
 
-        if (!queue || !queue.playing) return message.channel.send(`No music currently playing ${message.author}... try again ? ❌`);
+        if (!queue || !queue.playing) return message.channel.send(`Ale teraz ${message.author} nie puszcza piosenki... Spróbować ponownie? ❌`);
 
         if (args.join('').toLowerCase() === 'queue') {
             if (queue.repeatMode === 1) return message.channel.send(`You must first disable the current music in the loop mode (${client.config.app.px}loop) ${message.author}... try again ? ❌`);
