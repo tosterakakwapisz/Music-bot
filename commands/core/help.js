@@ -18,7 +18,7 @@ module.exports = {
         embed.addField(`Enabled - ${commands.size}`, commands.map(x => `\`${x.name}${x.aliases[0] ? ` (${x.aliases.map(y => y).join(', ')})\`` : '\`'}`).join(' | '));
 
         embed.setTimestamp();
-        embed.setFooter('Wbijaj do nas na serwer! [Discord.gg/MZcunqMbvR](https://discord.gg/MZcunqMbvR)', message.author.avatarURL({ dynamic: true }));
+        embed.setFooter('Wbijaj do nas na serwer! https://discord.gg/MZcunqMbvR', message.author.avatarURL({ dynamic: true }));
 
         message.channel.send({ embeds: [embed] });
     },
